@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Custom Activity Config</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 16px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- Load Postmonger and config JS from root -->
+    <script src="postmonger.js"></script>
+    <script src="customActivity.js"></script>
+</head>
+<body>
+    <h2>Configure Custom Activity</h2>
+
+    <label for="emailInput">Email to use (for test/demo):</label>
+    <input type="text" id="emailInput" placeholder="user@example.com" />
+
+    <button id="btnNext">Save & Close</button>
+</body>
+</html>
